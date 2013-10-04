@@ -25,10 +25,8 @@ Plugin for AspNetWebApi-OutputCache (https://github.com/filipw/AspNetWebApi-Outp
   <webApiCacheConfig>
     <profiles>
       <!-- name == ControllerName_ActionName -->
-      <add name="ValuesController_Get" enable="true" clientTimeSpan="120" serverTimeSpan="0" 
-           anonymousOnly="false" noCache="false" mustRevalidate="true" excludeQueryStringFromCacheKey="false"/>
-      <add name="ValuesController_GetParam" enable="true" clientTimeSpan="240" serverTimeSpan="0" 
-           anonymousOnly="false" noCache="false" mustRevalidate="true" excludeQueryStringFromCacheKey="false"/>    
+      <add name="ValuesController_Get" enable="true" clientTimeSpan="120" serverTimeSpan="0" anonymousOnly="false" noCache="false" mustRevalidate="true" excludeQueryStringFromCacheKey="false"/>
+      <add name="ValuesController_GetParam" enable="true" clientTimeSpan="240" serverTimeSpan="0" anonymousOnly="false" noCache="false" mustRevalidate="true" excludeQueryStringFromCacheKey="false"/>    
     </profiles>
   </webApiCacheConfig>
 
